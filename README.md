@@ -1,26 +1,13 @@
-Microsoft.VisualStudio.Web.CodeGeneration.Design
-
-Microsoft.EntityFrameworkCore.Tools
-
-Microsoft.EntityFrameworkCore.SqlServer
-
-Microsoft.VisualStudio.Web.CodeGeneration
-
-Microsoft.VisualStudio.Web.CodeGeneration.Util
+Hey there! I'm Harshil.
+👨🏻‍💻  About Me
+🤔   Exploring new technologies and developing web applications.
+🎓   Pursuing Master of Science (Information and Communication Technology) at Veer Narmad South Gujarat University.
+🌱   Learning Full-Stack web Development.
 
 
-Scaffold-DbContext "Connection String;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
-
-
-,
-  "ConnectionStrings": {
-    "DBConnectionStrings": "Connection String;"
-  }
-
-
-services.AddDbContext<DICTDBContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DBConnectionStrings")));
-
-
-
-ConfigurationBuilder confBuilder = new ConfigurationBuilder();
-                optionsBuilder.UseSqlServer(confBuilder.Build().GetSection("ConnectionStrings:DBConnectionStrings").Value);
+🛠  Tech Stack
+💻   PHP
+🌐   HTML5 CSS JavaScript Node.js React .Net Core
+🛢   MySQL MongoDB
+⚙️   Git GitHub
+🔧   Visual Studio Code Visual Studio
